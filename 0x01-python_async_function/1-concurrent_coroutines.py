@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """importance of async and await syntax in python async function"""
-import asyncio
 from typing import List
 wait_random = __import__('0-basic_async_syntax').wait_random
 
