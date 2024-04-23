@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """importance of async and await syntax in python async function"""
-import asyncio
+from typing import List
 task_wait_random = __import__('3-tasks').task_wait_random
 
 
