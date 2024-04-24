@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """importance of async and await syntax in python async function"""
 import asyncio
-import random
-from typing import Generator
+from typing import List
+async_generator = __import__('0-async_generator').async_generator
 
 
-async def async_generator() -> Generator[float, None, None]:
+async def async_comprehension() -> List[float]:
     """async generator"""
-    for i in range(10):
-        await asyncio.sleep(1)
-        yield random.uniform(0, 10)
+    return [i async for i in async_generator()]
