@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """importance of async and await syntax in python async function"""
-async_com = __import__('1-async_comprehension').async_comprehension
 import asyncio
 import time
+async_com = __import__('1-async_comprehension').async_comprehension
 
 
 async def measure_runtime() -> float:
